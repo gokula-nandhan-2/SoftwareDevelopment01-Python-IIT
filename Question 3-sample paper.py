@@ -18,18 +18,24 @@ def culculate_monthly_expenses(expenses):
 
 
 def main():
-    expenses = []
-    expense_names = ["Loan payment", "Insurance", "Gas", "Oil", "Tires", "Maintanence"]
+    while True:
+        expenses = []
+        expense_names = ["Loan payment", "Insurance", "Gas", "Oil", "Tires", "Maintanence"]
 
-    for expense_name in expense_names:
-        cost = get_cost(expense_name)
-        expenses.append(cost)
+        for expense_name in expense_names:
+            cost = get_cost(expense_name)
+            expenses.append(cost)
 
-    total_expenses = culculate_monthly_expenses(expenses)
-    annual_expenses = total_expenses * 12
+        total_expenses = culculate_monthly_expenses(expenses)
+        annual_expenses = total_expenses * 12
 
-    print(f"\nMonthly expenses: {total_expenses:.2f}")
-    print(f"Annual expenses: {annual_expenses:.2f}")
+        print(f"\nMonthly expenses: {total_expenses:.2f}")
+        print(f"Annual expenses: {annual_expenses:.2f}")
+
+        again = input("Do you want to calculate expenses again? (yes/no): ").strip().lower()
+        if again != 'yes':
+            print("Thank you for using the expense calculator!")
+            break
 
 if __name__ == "__main__":
     main()
