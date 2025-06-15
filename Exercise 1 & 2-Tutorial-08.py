@@ -8,6 +8,7 @@
 
 
 # Exercise 2
-f = open('example.txt', 'r') 
+f = open('example.txt', 'w') 
+f.write('Write this to the file.') 
+f.close()
 
-#f.write('Write this to the file.') 
