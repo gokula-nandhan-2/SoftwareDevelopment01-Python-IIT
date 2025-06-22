@@ -1,0 +1,7 @@
+sql
+scala
+flutter
+angular
+python
+numpy
+panda
