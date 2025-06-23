@@ -1,0 +1,7 @@
+This text file contains user-generated
+Product reviews, each followed by a numerical
+Rating out of five. It is used for analyzing customer
+Feedback, calculating average ratings, and
+Generating summary reports. The format ensures
+Readability and easy parsing for automation or
+Further processing in python or other programming tools.
