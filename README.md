@@ -32,5 +32,5 @@ These tutorials help build a strong foundation in core programming concepts usin
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/gokula-nandhan-2/softwareDevelopment01-Python-IIT.git
-   cd softwareDevelopment01-Python-IIT
+   git clone https://github.com/gokula-nandhan-2/SoftwareDevelopment01-Python-IIT.git
+   cd SoftwareDevelopment01-Python-IIT
